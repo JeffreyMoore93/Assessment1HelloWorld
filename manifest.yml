@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Assessment1HelloWorld
+  host: Assessment1HelloWorld
+  disk_quota: 1024M
